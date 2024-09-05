@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@shopify/storefront-api-client": "^1.0.1",
     "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
@@ -15,7 +16,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "autoprefixer": "^10.4.20",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "postcss": "^8.4.45",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.4.10"
   },
   "keywords": [
     "gatsby"

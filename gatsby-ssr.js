@@ -1,3 +1,4 @@
+
 /**
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
  *
@@ -8,5 +9,9 @@
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
 exports.onRenderBody = ({ setHtmlAttributes }) => {
+  
   setHtmlAttributes({ lang: `en` })
 }
+
+
+

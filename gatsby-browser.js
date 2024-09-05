@@ -1,7 +1,8 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
- */
+import './src/styles/global.css'
+import React from 'react';
+import { CartProvider } from './src/context/cartContext'; // Adjust the import path
 
-// You can delete this file if you're not using it
+export const wrapRootElement = ({ element }) => {
+ 
+  return <CartProvider>{element}</CartProvider>;
+};
